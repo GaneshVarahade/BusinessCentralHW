@@ -13,6 +13,12 @@ table 50116 "Al Translator Service Setup"
         {
             DataClassification = ToBeClassified;
         }
+         field(3;"Azure Key"; Text[250])
+        {
+            Caption='Azure Subscription Key';
+            DataClassification = ToBeClassified;
+        }
+        
     }
     
     keys
